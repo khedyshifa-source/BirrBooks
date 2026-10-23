@@ -1,0 +1,18 @@
+{
+  "name": "birr-books",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Birr Books: accounting for Ethiopian small businesses",
+  "scripts": {
+    "add": "cap add android",
+    "sync": "cap sync android",
+    "build:apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "et.birrbooks.app",
+  "appName": "Birr Books",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}
